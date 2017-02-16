@@ -1,0 +1,1216 @@
+unity-system-compositor (0.9.1+17.04.20170216-0ubuntu1) zesty; urgency=medium
+
+  [ Alexandros Frantzis ]
+  * No change rebuild
+
+ -- Brandon Schaefer <brandon.schaefer@canonical.com>  Thu, 16 Feb 2017 16:37:33 +0000
+
+unity-system-compositor (0.9.1+17.04.20170207-0ubuntu1) zesty; urgency=medium
+
+  [ Alexandros Frantzis ]
+  * 0.9.1 release:
+    - Update the Unity.Display DBus interface to support multiple
+      outputs better.
+
+ -- Cemil Azizoglu <cemil.azizoglu@canonical.com>  Tue, 07 Feb 2017 00:15:45 +0000
+
+unity-system-compositor (0.9.0+17.04.20170127-0ubuntu1) zesty; urgency=medium
+
+  * Update for compatibility with Mir 0.26
+
+ -- Cemil Azizoglu <cemil.azizoglu@canonical.com>  Fri, 27 Jan 2017 03:02:22 +0000
+
+unity-system-compositor (0.8.0+17.04.20161206-0ubuntu1) zesty; urgency=medium
+
+  * 0.8.0 release, containing compatibility fixes for mir 0.25 release
+
+ -- Brandon Schaefer <brandon.schaefer@canonical.com>  Tue, 06 Dec 2016 02:48:56 +0000
+
+unity-system-compositor (0.7.1+16.10.20160909.1-0ubuntu1) yakkety; urgency=medium
+
+  [ Michael Terry ]
+  * Use system wallpaper instead of custom built-in one.
+
+ -- Michał Sawicz <michal.sawicz@canonical.com>  Fri, 09 Sep 2016 14:39:40 +0000
+
+unity-system-compositor (0.7.1+16.10.20160824-0ubuntu1) yakkety; urgency=medium
+
+  * 0.7.1 release
+    - Use libandroid-properties-dev build-dep on arm64
+    - Use python3 for everything (autopilot tests and internal scripts)
+    - Remove obsolete ubuntu-desktop-mir binary package
+
+ -- Alexandros Frantzis <alexandros.frantzis@canonical.com>  Wed, 24 Aug 2016 07:16:37 +0000
+
+unity-system-compositor (0.7.0+16.10.20160815-0ubuntu1) yakkety; urgency=medium
+
+  * 0.7.0 release, containing compatibility fixes for mir 0.24 release.
+    Only test code changes. 
+
+ -- Kevin DuBois <kevin.dubois@canonical.com>  Mon, 15 Aug 2016 18:57:15 +0000
+
+unity-system-compositor (0.6.0+16.10.20160805.1-0ubuntu1) yakkety; urgency=medium
+
+  * No-change rebuild.
+
+ -- Alexandros Frantzis <alexandros.frantzis@canonical.com>  Fri, 05 Aug 2016 10:18:16 +0000
+
+unity-system-compositor (0.6.0+16.10.20160609-0ubuntu2) yakkety; urgency=medium
+
+  * No-change rebuild for boost soname change.
+
+ -- Matthias Klose <doko@ubuntu.com>  Thu, 04 Aug 2016 08:33:29 +0000
+
+unity-system-compositor (0.6.0+16.10.20160609-0ubuntu1) yakkety; urgency=medium
+
+  * 0.6.0 release
+
+ -- Alexandros Frantzis <alexandros.frantzis@canonical.com>  Thu, 09 Jun 2016 09:05:15 +0000
+
+unity-system-compositor (0.6.0-0ubuntu1) xenial; urgency=medium
+
+  * Grand repowerd update.
+
+ -- Alexandros Frantzis <alexandros.frantzis@canonical.com>  Wed, 01 Jun 2016 19:39:14 +0000
+
+unity-system-compositor (0.5.1+16.10.20160602.1-0ubuntu1) yakkety; urgency=medium
+
+  [ Alexandros Frantzis ]
+  * rebuild for mir 0.23
+
+ -- Kevin DuBois <kdub432@gmail.com>  Thu, 02 Jun 2016 17:53:14 +0000
+
+unity-system-compositor (0.5.1+16.04.20160428-0ubuntu2) yakkety; urgency=medium
+
+  * No-change rebuild of latest xenial trunk against current archive.
+
+ -- Łukasz 'sil2100' Zemczak <lukasz.zemczak@ubuntu.com>  Thu, 19 May 2016 21:02:28 +0200
+
+unity-system-compositor (0.5.1+16.04.20160428-0ubuntu1) xenial; urgency=medium
+
+  [ CI Train Bot ]
+  * No-change rebuild.
+
+ -- Alexandros Frantzis <alexandros.frantzis@canonical.com>  Thu, 28 Apr 2016 17:30:14 +0000
+
+unity-system-compositor (0.5.1-0ubuntu1) xenial; urgency=medium
+
+  * Change proximity behavior to trigger only once for notifications
+    and snap-decisions.
+  * Allow only key down events (not repeat or up events) to turn on
+    the screen.
+  * Ignore requests to turn off the screen with reason 'notification' or
+    'snap-decision'.
+
+ -- Alexandros Frantzis <alexandros.frantzis@canonical.com>  Thu, 28 Apr 2016 19:47:53 +0300
+
+unity-system-compositor (0.5.0+16.04.20160423-0ubuntu1) xenial; urgency=medium
+
+  [ Alberto Aguirre ]
+  * Mir 0.22 compatibility 
+
+  [ CI Train Bot ]
+  * No-change rebuild.
+
+ -- Alberto Aguirre <alberto.aguirre@canonical.com>  Sat, 23 Apr 2016 03:27:29 +0000
+
+unity-system-compositor (0.4.3+16.04.20160323-0ubuntu1) xenial; urgency=medium
+
+  [ CI Train Bot ]
+  * No-change rebuild.
+
+ -- Thomas Voß <ci-train-bot@canonical.com>  Wed, 23 Mar 2016 11:06:43 +0000
+
+unity-system-compositor (0.4.3) xenial; urgency=medium
+
+  * Gracefully fallback if ubuntu's platform hw api is not available.
+
+ -- Thomas Voß <thomas.voss@canonical.com>  Tue, 22 Mar 2016 16:34:23 +0100
+
+unity-system-compositor (0.4.2+16.04.20160219.1-0ubuntu1) xenial; urgency=medium
+
+  [ Alan Griffiths, Alexandros Frantzis, Brandon Schaefer ]
+  * Picking up head for Mir 0.20
+
+ -- Alan Griffiths <ci-train-bot@canonical.com>  Fri, 19 Feb 2016 14:55:30 +0000
+
+unity-system-compositor (0.4.2+16.04.20160211.2-0ubuntu1) xenial; urgency=medium
+
+  [ CI Train Bot ]
+  * No-change rebuild.
+
+ -- Alexandros Frantzis <alexandros.frantzis@canonical.com>  Thu, 11 Feb 2016 12:22:48 +0000
+
+unity-system-compositor (0.4.2+16.04.20160211-0ubuntu1) xenial; urgency=medium
+
+  * Orient the spinner according to the native orientation of the device.
+    (LP: #1543495)
+  * Implement a stub cookie authority (LP: #1536662)
+
+ -- Alexandros Frantzis <alexandros.frantzis@canonical.com>  Thu, 11 Feb 2016 12:55:56 +0200
+
+unity-system-compositor (0.4.1+16.04.20160203-0ubuntu1) xenial; urgency=medium
+
+  [ Kevin Gunn ]
+  [ Kevin Gunn]
+  * improved reporting
+  * changes to match thread locking convention in Mir
+
+  [ CI Train Bot ]
+  * No-change rebuild.
+
+ -- kevin gunn <kevin.gunn@canonical.com>  Wed, 03 Feb 2016 19:46:18 +0000
+
+unity-system-compositor (0.4.0+16.04.20160128.1-0ubuntu1) xenial; urgency=medium
+
+  [ Brandon Schaefer ]
+  * New upstream release 0.4.0
+    . Server ABI break, update make_event
+
+  [ CI Train Bot ]
+  * No-change rebuild.
+
+ -- Brandon Schaefer <ci-train-bot@canonical.com>  Thu, 28 Jan 2016 14:20:54 +0000
+
+unity-system-compositor (0.3.1+16.04.20160121.1-0ubuntu1) xenial; urgency=medium
+
+  [ CI Train Bot ]
+  * No-change rebuild.
+
+ -- Alexandros Frantzis <alexandros.frantzis@canonical.com>  Thu, 21 Jan 2016 17:58:58 +0000
+
+unity-system-compositor (0.3.1+16.04.20160121-0ubuntu1) xenial; urgency=medium
+
+  [ Alexandros Frantzis ]
+  * Unblank the screen when a pointer or key event arrives. (LP: #1488413)
+
+  [ Andreas Pokorny ]
+  * Implement a DBus interface for setting pointer speed/acceleration.
+    (LP: #1536383)
+
+ -- Alexandros Frantzis <alexandros.frantzis@canonical.com>  Thu, 21 Jan 2016 19:27:33 +0200
+
+unity-system-compositor (0.2.0+16.04.20151222.1-0ubuntu1) xenial; urgency=medium
+
+  [ Alexandros Frantzis ]
+  * tests: Fix build failure with gcc-4.9
+
+  [ Andrea Cimitan ]
+  * Updated wallpaper for spinner from unity8.
+
+  [ Andreas Pokorny ]
+  * Add clone method to StubdisplayConfigurations
+  * Change keyboard handling to scan codes. (LP: #1514059, #1520422)
+  * do not premultiply RGB images
+  * follow the deprecation warning and use tobytes instead of tostring.
+
+  [ Kevin DuBois ]
+  * Accommodate RGB images (LP: #1528279)
+  * Accommodate RGB images (LP: #1528279)
+
+ -- Kevin DuBois <kevin.dubois@canonical.com>  Tue, 22 Dec 2015 19:09:40 +0000
+
+unity-system-compositor (0.2.0+16.04.20151216.1-0ubuntu1) xenial; urgency=medium
+
+  [ Alexandros Frantzis ]
+  * Merge trunk into 0.3.0
+
+  [ Andrea Cimitan ]
+  * Merge trunk into 0.3.0
+
+  [ Andreas Pokorny ]
+  * Merge trunk into 0.3.0
+
+  [ Kevin DuBois ]
+  * Merge trunk into 0.3.0
+
+ -- Kevin DuBois <kevin.dubois@canonical.com>  Wed, 16 Dec 2015 22:44:38 +0000
+
+unity-system-compositor (0.2.0+15.10.20151008.1-0ubuntu1) wily; urgency=medium
+
+  [ Alexandros Frantzis ]
+  * Use new versions of mir::event::make_event() overloads.
+  * Rebuild for Mir 0.17.
+
+  [ CI Train Bot ]
+  * New rebuild forced.
+
+ -- Alexandros Frantzis <alexandros.frantzis@canonical.com>  Thu, 08 Oct 2015 18:34:03 +0000
+
+unity-system-compositor (0.1.4+15.10.20150930.1-0ubuntu1) wily; urgency=medium
+
+  [ Alexandros Frantzis ]
+  * Improve proximity handling and screen blanking for voice calls
+    (LP: #1291455)
+
+  [ CI Train Bot ]
+  * New rebuild forced.
+
+ -- Alexandros Frantzis <alexandros.frantzis@canonical.com>  Wed, 30 Sep 2015 12:29:53 +0000
+
+unity-system-compositor (0.1.3+15.10.20150925.1-0ubuntu1) wily; urgency=medium
+
+  [ Alexandros Frantzis ]
+  * Fix "unresponsive shell including power button doesn't blank/unblank
+    display" (LP: #1491566)
+
+  [ CI Train Bot ]
+  * No-change rebuild.
+
+ -- Alexandros Frantzis <alexandros.frantzis@canonical.com>  Fri, 25 Sep 2015 14:09:43 +0000
+
+unity-system-compositor (0.1.2+15.10.20150922-0ubuntu1) wily; urgency=medium
+
+  [ Cemil Azizoglu ]
+  * Rebuild for Mir 0.16
+
+  [ CI Train Bot ]
+  * New rebuild forced.
+
+ -- Cemil Azizoglu <cemil.azizoglu@canonical.com>  Tue, 22 Sep 2015 16:44:54 +0000
+
+unity-system-compositor (0.1.1+15.10.20150904-0ubuntu1) wily; urgency=medium
+
+  [ Michal Sawicz ]
+  * Rebuild to resync wily and vivid
+
+  [ CI Train Bot ]
+  * No-change rebuild.
+
+ -- CI Train Bot <ci-train-bot@canonical.com>  Fri, 04 Sep 2015 07:31:34 +0000
+
+unity-system-compositor (0.1.1+15.10.20150902-0ubuntu1) wily; urgency=medium
+
+  [ Alberto Aguirre ]
+  * Fix "Proximity does not turn screen on during a call" (LP: #1483127)
+
+  [ Alexandros Frantzis ]
+  * Work around EGL bug in ubuntu-touch emulator that causes the spinner
+    to fail
+  * Fix "Screen fades to black while typing a message (after wake-up from
+    notification)" (LP: #1485737)
+
+  [ Robert Ancell ]
+  * Use [Seat:*] section for LightDM configuration instead of deprecated
+    [SeatDefaults]
+
+  [ CI Train Bot ]
+  * No-change rebuild.
+
+ -- CI Train Bot <ci-train-bot@canonical.com>  Wed, 02 Sep 2015 12:31:35 +0000
+
+unity-system-compositor (0.1.1+15.04.20150824.1-0ubuntu1) vivid; urgency=medium
+
+  [ Alberto Aguirre ]
+  * Fix "Proximity does not turn screen on during a call" (LP: #1483127)
+
+  [ Alexandros Frantzis ]
+  * Work around EGL bug in ubuntu-touch emulator that causes the spinner
+    to fail
+  * Fix "Screen fades to black while typing a message (after wake-up from
+    notification)" (LP: #1485737)
+
+  [ Robert Ancell ]
+  * Use [Seat:*] section for LightDM configuration instead of deprecated
+    [SeatDefaults]
+
+  [ CI Train Bot ]
+  * No-change rebuild.
+
+ -- CI Train Bot <ci-train-bot@canonical.com>  Mon, 24 Aug 2015 19:23:43 +0000
+
+unity-system-compositor (0.1.0+15.10.20150817-0ubuntu1) wily; urgency=medium
+
+  * 
+
+ -- CI Train Bot <ci-train-bot@canonical.com>  Mon, 17 Aug 2015 19:28:40 +0000
+
+unity-system-compositor (0.1.0+15.10.20150728.1-0ubuntu2~gcc5.1) wily; urgency=medium
+
+  * Build using GCC 5.
+
+ -- Matthias Klose <doko@ubuntu.com>  Wed, 29 Jul 2015 18:20:18 +0200
+
+unity-system-compositor (0.1.0+15.10.20150728.1-0ubuntu1) wily; urgency=medium
+
+  [ Alexandros Frantzis ]
+  * Support different screen timeout values for notifications
+    (LP: #1426115)
+  * Enable and handle proximity events properly (LP: #1291455)
+  * Don't force gcc 4.9 when building the package (LP: #1478926)
+  * Introduce new versioning scheme
+
+  [ Alan Griffiths ]
+  * Port to mir SystemCompositorWindowManager
+  
+  [ Robert Ancell ]
+  * Depend on the new xmir package instead of the obsolete
+    xserver-xorg-xmir (LP: #1204505)
+
+  [ CI Train Bot ]
+  * New rebuild forced.
+
+ -- CI Train Bot <ci-train-bot@canonical.com>  Tue, 28 Jul 2015 18:55:28 +0000
+
+unity-system-compositor (0.0.5+15.10.20150722-0ubuntu1) wily; urgency=medium
+
+  [ Kevin Gunn ]
+  * Release in step with Mir 0.14 
+
+  [ CI Train Bot ]
+  * New rebuild forced.
+
+ -- CI Train Bot <ci-train-bot@canonical.com>  Wed, 22 Jul 2015 14:49:58 +0000
+
+unity-system-compositor (0.0.5+15.04.20150713-0ubuntu1) vivid; urgency=medium
+
+  [ Alexandros Frantzis ]
+  * Don't restart the inactivity timers when receiving invalid dbus
+    calls or uninteresting dbus events
+
+ -- CI Train Bot <ci-train-bot@canonical.com>  Mon, 13 Jul 2015 14:17:04 +0000
+
+unity-system-compositor (0.0.5+15.04.20150506.1-0ubuntu1) vivid; urgency=medium
+
+  [ Alan Griffiths ]
+  * Release in step with Mir 0.13.0 (LP: #1355609)
+
+  [ Alexandros Frantzis ]
+  * Release in step with Mir 0.13.0 (LP: #1355609)
+
+  [ CI Train Bot ]
+  * Release in step with Mir 0.13.0 (LP: #1355609)
+
+  [ Ricardo Mendoza ]
+  * Release in step with Mir 0.13.0 (LP: #1355609)
+
+  [ Ricardo Salveti de Araujo ]
+  * Release in step with Mir 0.13.0 (LP: #1355609)
+
+ -- CI Train Bot <ci-train-bot@canonical.com>  Wed, 06 May 2015 16:15:31 +0000
+
+unity-system-compositor (0.0.5+15.04.20150430-0ubuntu1) vivid; urgency=medium
+
+  [ Ricardo Salveti de Araujo ]
+  * Check if the android.conf file is present which means we are on the
+    new way of defining device specific environment variables.
+
+ -- CI Train Bot <ci-train-bot@canonical.com>  Thu, 30 Apr 2015 16:23:53 +0000
+
+unity-system-compositor (0.0.5+15.04.20150227-0ubuntu1) vivid; urgency=medium
+
+  [ CI Train Bot ]
+  * New rebuild forced.
+
+  [ Kevin DuBois ]
+  * No change rebuild for Mir 0.12
+
+ -- CI Train Bot <ci-train-bot@canonical.com>  Fri, 27 Feb 2015 18:53:50 +0000
+
+unity-system-compositor (0.0.5+15.04.20150209-0ubuntu1) vivid; urgency=medium
+
+  [ Andreas Pokorny ]
+  * Port USC to event 2.0 API
+
+  [ Robert Carr ]
+  * Port USC to event 2.0 API
+
+  [ Alan Griffiths ]
+  * Port to the msh::Shell API in Mir
+
+ -- Ubuntu daily release <ps-jenkins@lists.canonical.com>  Mon, 09 Feb 2015 16:26:35 +0000
+
+unity-system-compositor (0.0.5+15.04.20150126.1-0ubuntu1) vivid; urgency=low
+
+  [ Ricardo Mendoza ]
+  * Make sure the compositor is running before starting the screen state
+    handler.
+
+ -- Ubuntu daily release <ps-jenkins@lists.canonical.com>  Mon, 26 Jan 2015 23:00:40 +0000
+
+unity-system-compositor (0.0.5+15.04.20150108.2-0ubuntu1) vivid; urgency=low
+
+  [ Ubuntu daily release ]
+  * New rebuild forced
+
+  [ Cemil Azizoglu ]
+  * Rebuild for Mir 0.10. (LP: #1355005)
+
+ -- Ubuntu daily release <ps-jenkins@lists.canonical.com>  Thu, 08 Jan 2015 14:15:05 +0000
+
+unity-system-compositor (0.0.5+15.04.20141204-0ubuntu1) vivid; urgency=low
+
+  [ CI bot ]
+  * Resync trunk
+
+  [ Alan Griffiths ]
+  * Migration of unity-system-compositor from the legacy Mir API
+
+ -- Ubuntu daily release <ps-jenkins@lists.canonical.com>  Thu, 04 Dec 2014 22:35:00 +0000
+
+unity-system-compositor (0.0.5+15.04.20141124-0ubuntu1) vivid; urgency=low
+
+  [ Alberto Aguirre ]
+  * No-change rebuild against mir 0.9.0
+
+  [ Ubuntu daily release ]
+  * New rebuild forced
+
+ -- Ubuntu daily release <ps-jenkins@lists.canonical.com>  Mon, 24 Nov 2014 22:37:24 +0000
+
+unity-system-compositor (0.0.5+15.04.20141109-0ubuntu1) vivid; urgency=low
+
+  [ josharenson ]
+  * Use explicit keyword to avoid implicit conversions
+
+  [ Alan Griffiths ]
+  * Restore the tests that have been commented out
+
+ -- Ubuntu daily release <ps-jenkins@lists.canonical.com>  Sun, 09 Nov 2014 00:32:49 +0000
+
+unity-system-compositor (0.0.5+14.10.20141020~rtm-0ubuntu1) 14.09; urgency=low
+
+  [ Ubuntu daily release ]
+  * New rebuild forced
+
+  [ Ricardo Mendoza ]
+  * When exiting usc, check if backlight is on and turn it off. (LP:
+    #1364865)
+
+ -- Ubuntu daily release <ps-jenkins@lists.canonical.com>  Mon, 20 Oct 2014 16:34:54 +0000
+
+unity-system-compositor (0.0.5+14.10.20141010.1-0ubuntu1) utopic; urgency=low
+
+  [ Charles Kerr ]
+  * Fix a typo that caused removeDisplayOnRequest to not correctly
+    remove cookies. (LP: #1365557)
+
+  [ Alexandros Frantzis ]
+  * debian: Make u-s-c abort on fatal errors when run from lightdm
+
+ -- Ubuntu daily release <ps-jenkins@lists.canonical.com>  Fri, 10 Oct 2014 22:43:53 +0000
+
+unity-system-compositor (0.0.5+14.10.20141010-0ubuntu1) utopic; urgency=low
+
+  [ Robert Carr ]
+  * Add explicit G++ dependency
+  * Implement DBus interface for toggling touch visualization as
+    required by autopilot.
+
+ -- Ubuntu daily release <ps-jenkins@lists.canonical.com>  Fri, 10 Oct 2014 15:24:43 +0000
+
+unity-system-compositor (0.0.5+14.10.20140917-0ubuntu1) utopic; urgency=low
+
+  [ Alberto Aguirre ]
+  * Add worker thread to handle incoming DBus requests.
+
+ -- Ubuntu daily release <ps-jenkins@lists.canonical.com>  Wed, 17 Sep 2014 19:56:45 +0000
+
+unity-system-compositor (0.0.5+14.10.20140910-0ubuntu1) utopic; urgency=low
+
+  [ Vojtech Bocek ]
+  * This fixes backlight problems on Nexus 5. Android does things in
+    this order, and the kernel drivers don't work correctly if the
+    brightness is set after the panel is powered down.
+
+ -- Ubuntu daily release <ps-jenkins@lists.canonical.com>  Wed, 10 Sep 2014 06:21:11 +0000
+
+unity-system-compositor (0.0.5+14.10.20140829-0ubuntu1) utopic; urgency=low
+
+  [ Ubuntu daily release ]
+  * New rebuild forced
+
+  [ Cemil Azizoglu ]
+  * Rebuild for the Mir 0.7.0 release. (LP: #1355005)
+
+  [ Daniel van Vugt ]
+  * When building static library "usc.a" make sure you use
+    MIRSERVER_STATIC_LDFLAGS or else the Requires.private information
+    from mirserver.pc won't be used, leading to linkage failure (LP:
+    #1355609) (LP: #1355609)
+  * Rebuild for the Mir 0.7.0 release. (LP: #1355005)
+
+ -- Ubuntu daily release <ps-jenkins@lists.canonical.com>  Fri, 29 Aug 2014 18:04:48 +0000
+
+unity-system-compositor (0.0.5+14.10.20140814-0ubuntu1) utopic; urgency=medium
+
+  [ Alberto Aguirre ]
+  * Bump version due to new DBus api to configure inacitivy timeouts
+  * Request disabling of system suspend on first boot or when powerd
+    restarts (if needed) (LP: #1353647)
+
+ -- Ubuntu daily release <ps-jenkins@lists.canonical.com>  Thu, 14 Aug 2014 20:02:08 +0000
+
+unity-system-compositor (0.0.4+14.10.20140811-0ubuntu1) utopic; urgency=low
+
+  [ Ubuntu daily release ]
+  * New rebuild forced
+
+  [ Cemil Azizoglu ]
+  * Bump ABI for Mir 0.6.0 release. Ignore unknown command line
+    arguments. Use the libraries suggested by mirserver package config.
+    (LP: #1355005)
+
+  [ Alan Griffiths ]
+  * Bump ABI for Mir 0.6.0 release. Ignore unknown command line
+    arguments. Use the libraries suggested by mirserver package config.
+    (LP: #1355005)
+
+  [ Kevin Gunn ]
+  * Bump ABI for Mir 0.6.0 release. Ignore unknown command line
+    arguments. Use the libraries suggested by mirserver package config.
+    (LP: #1355005)
+
+ -- Ubuntu daily release <ps-jenkins@lists.canonical.com>  Mon, 11 Aug 2014 21:09:54 +0000
+
+unity-system-compositor (0.0.4+14.10.20140804-0ubuntu1) utopic; urgency=low
+
+  [ Alberto Aguirre ]
+  * SessionSwitcher: check if a session is being tracked before
+    attempting to remove it (LP: #1351444)
+
+ -- Ubuntu daily release <ps-jenkins@lists.canonical.com>  Mon, 04 Aug 2014 15:50:56 +0000
+
+unity-system-compositor (0.0.4+14.10.20140722-0ubuntu1) utopic; urgency=low
+
+  [ Alberto Aguirre ]
+  * Attempt to sync up sys state when powerd is already up (LP:
+    #1343919) (LP: #1343919)
+  * Turn screen on when long press alarm fires (LP: #1344101) (LP:
+    #1344101)
+
+ -- Ubuntu daily release <ps-jenkins@lists.canonical.com>  Tue, 22 Jul 2014 18:49:32 +0000
+
+unity-system-compositor (0.0.4+14.10.20140718-0ubuntu1) utopic; urgency=low
+
+  [ Alexandros Frantzis ]
+  * First steps of refactoring to improve code comprehensibility and
+    testability (LP: #1339843)
+
+ -- Ubuntu daily release <ps-jenkins@lists.canonical.com>  Fri, 18 Jul 2014 10:18:51 +0000
+
+unity-system-compositor (0.0.4+14.10.20140717-0ubuntu1) utopic; urgency=low
+
+  [ Cemil Azizoglu ]
+  * Mir display server 0.5.0 release.
+
+  [ Robert Carr ]
+  * Mir display server 0.5.0 release.
+
+ -- Ubuntu daily release <ps-jenkins@lists.canonical.com>  Thu, 17 Jul 2014 07:50:36 +0000
+
+unity-system-compositor (0.0.4+14.10.20140716-0ubuntu1) utopic; urgency=low
+
+  [ Alberto Aguirre ]
+  * Avoid blocking QT DBus thread (LP: #1342745) (LP: #1342745)
+
+ -- Ubuntu daily release <ps-jenkins@lists.canonical.com>  Wed, 16 Jul 2014 14:44:13 +0000
+
+unity-system-compositor (0.0.4+14.10.20140715-0ubuntu1) utopic; urgency=low
+
+  [ Alberto Aguirre ]
+  * Block turning on backlight or display until powerd signals we are
+    completely out of suspend mode.
+
+ -- Ubuntu daily release <ps-jenkins@lists.canonical.com>  Tue, 15 Jul 2014 21:06:05 +0000
+
+unity-system-compositor (0.0.4+14.10.20140703.1-0ubuntu1) utopic; urgency=low
+
+  [ Alberto Aguirre ]
+  * Disable inactivity and power key handling for desktop. Fixes LP:
+    #1337325 (LP: #1337325)
+
+ -- Ubuntu daily release <ps-jenkins@lists.canonical.com>  Thu, 03 Jul 2014 21:34:22 +0000
+
+unity-system-compositor (0.0.4+14.10.20140702-0ubuntu1) utopic; urgency=low
+
+  [ Daniel d'Andrada ]
+  * Bump Mir dependencies for 0.4.0 release.
+
+  [ Cemil Azizoglu ]
+  * Bump Mir dependencies for 0.4.0 release.
+
+  [ Alberto Aguirre ]
+  * Bump Mir dependencies for 0.4.0 release.
+
+ -- Ubuntu daily release <ps-jenkins@lists.canonical.com>  Wed, 02 Jul 2014 02:08:24 +0000
+
+unity-system-compositor (0.0.4+14.10.20140701-0ubuntu1) utopic; urgency=low
+
+  [ Alberto Aguirre ]
+  * Request disabling suspend before turning backlight/display on (LP:
+    #1336411) (LP: #1336411)
+
+ -- Ubuntu daily release <ps-jenkins@lists.canonical.com>  Tue, 01 Jul 2014 23:21:23 +0000
+
+unity-system-compositor (0.0.4+14.10.20140625-0ubuntu1) utopic; urgency=medium
+
+  [ Alberto Aguirre ]
+  * Bump version due to new dbus interfaces 
+
+ -- Ubuntu daily release <ps-jenkins@lists.canonical.com>  Wed, 25 Jun 2014 14:49:59 +0000
+
+unity-system-compositor (0.0.3+14.10.20140619-0ubuntu1) utopic; urgency=low
+
+  [ Michael Terry ]
+  * Kill the boot animation spinner when not needed, saving resources
+    (LP: #1331550)
+
+ -- Ubuntu daily release <ps-jenkins@lists.canonical.com>  Thu, 19 Jun 2014 22:23:50 +0000
+
+unity-system-compositor (0.0.3+14.10.20140618.1-0ubuntu1) utopic; urgency=low
+
+  [ Alberto Aguirre ]
+  * Updated for Mir 0.3.0 release.
+
+  [ Cemil Azizoglu ]
+  * Updated for Mir 0.3.0 release.
+
+  [ Ubuntu daily release ]
+  * New rebuild forced
+
+ -- Ubuntu daily release <ps-jenkins@lists.canonical.com>  Wed, 18 Jun 2014 19:26:10 +0000
+
+unity-system-compositor (0.0.3+14.10.20140605-0ubuntu1) utopic; urgency=low
+
+  [ Alberto Aguirre ]
+  * Bumped Mir server ABI to 20.
+
+  [ Michał Sawicz ]
+  * Bumped Mir server ABI to 20.
+
+  [ Cemil Azizoglu ]
+  * Bumped Mir server ABI to 20.
+
+  [ Kevin Gunn ]
+  * Bumped Mir server ABI to 20.
+
+  [ Ubuntu daily release ]
+  * New rebuild forced
+
+ -- Ubuntu daily release <ps-jenkins@lists.canonical.com>  Thu, 05 Jun 2014 13:50:00 +0000
+
+unity-system-compositor (0.0.3+14.10.20140529-0ubuntu1) utopic; urgency=medium
+
+  [ Michael Terry ]
+  * Bump version so unity8 can depend on new behavior
+  * This branch adds a new option "--spinner=/path" which allows for an
+    interstitial 'busy wait' program to be specified during boot and
+    between greeter and user sessions.
+
+  [ Mirco Müller ]
+  * This branch adds a new option "--spinner=/path" which allows for an
+    interstitial 'busy wait' program to be specified during boot and
+    between greeter and user sessions.
+
+ -- Ubuntu daily release <ps-jenkins@lists.canonical.com>  Thu, 29 May 2014 14:38:46 +0000
+
+unity-system-compositor (0.0.2+14.10.20140430.1-0ubuntu1) utopic; urgency=low
+
+  [ Alberto Aguirre ]
+  * mir019
+
+  [ Ubuntu daily release ]
+  * New rebuild forced
+
+  [ Alexandros Frantzis ]
+  * Keep the compositor running even when the screen is turned off This
+    is needed so that the compositor can consume surface buffers and
+    prevent clients from blocking in eglSwapBuffers().
+
+ -- Ubuntu daily release <ps-jenkins@lists.canonical.com>  Wed, 30 Apr 2014 13:17:39 +0000
+
+unity-system-compositor (0.0.2+14.04.20140411-0ubuntu1) trusty; urgency=low
+
+  [ Ubuntu daily release ]
+  * New rebuild forced
+
+  [ Kevin Gunn ]
+  * unchanged, rebuild
+
+ -- Ubuntu daily release <ps-jenkins@lists.canonical.com>  Fri, 11 Apr 2014 20:53:30 +0000
+
+unity-system-compositor (0.0.2+14.04.20140403-0ubuntu1) trusty; urgency=low
+
+  [ Robert Carr ]
+  * allow hw cursor option (LP: #1289072)
+
+ -- Ubuntu daily release <ps-jenkins@lists.canonical.com>  Thu, 03 Apr 2014 06:09:57 +0000
+
+unity-system-compositor (0.0.2+14.04.20140317.2-0ubuntu1) trusty; urgency=low
+
+  [ Ubuntu daily release ]
+  * New rebuild forced
+
+  [ Kevin Gunn ]
+  * bump to mir0.1.7
+
+  [ Alan Griffiths ]
+  * Changes for Mir 0.1.7
+
+ -- Ubuntu daily release <ps-jenkins@lists.canonical.com>  Mon, 17 Mar 2014 17:41:03 +0000
+
+unity-system-compositor (0.0.2+14.04.20140311.2-0ubuntu1) trusty; urgency=low
+
+  * New rebuild forced
+
+ -- Ubuntu daily release <ps-jenkins@lists.canonical.com>  Tue, 11 Mar 2014 09:09:38 +0000
+
+unity-system-compositor (0.0.2+14.04.20140311.1-0ubuntu1) trusty; urgency=low
+
+  [ Robert Ancell ]
+  * Install LightDM configuration into /usr/share so it's not kept
+    around by dpkg
+
+  [ CI bot ]
+  * Add an optional delay when powering off screen. Add an option
+    (power-off-delay, defaulted to 0) to delay stopping the compositor
+    and powering off the screen to allow the shell to present a shutdown
+    animation; without delay, the shell and-or greeter will get blocked
+    while trying to render such animation; this is due to the compositor
+    stopping as USC receives the power state change before the shell.
+    This is mostly a workaround as ideally, the greeter and-or shell
+    should coordinate when to shutdown the screen after they are given a
+    chance to possibly show a shutdown animation. fixes: lp: #1233564
+    (LP: #1233564)
+
+  [ Michael Terry ]
+  * Make sure that the active session has focus when multiple sessions
+    are opened.
+
+ -- Ubuntu daily release <ps-jenkins@lists.canonical.com>  Tue, 11 Mar 2014 03:37:20 +0000
+
+unity-system-compositor (0.0.2+14.04.20140311-0ubuntu1) trusty; urgency=low
+
+  [ Ubuntu daily release ]
+  * New rebuild forced
+
+  [ Kevin Gunn ]
+  * bump debian dep to mir0.1.6
+
+ -- Ubuntu daily release <ps-jenkins@lists.canonical.com>  Tue, 11 Mar 2014 01:21:51 +0000
+
+unity-system-compositor (0.0.2+14.04.20140212.1-0ubuntu1) trusty; urgency=low
+
+  [ Kevin Gunn ]
+  * bump dep to mir0.1.5 and update shell interfaces
+
+  [ Alan Griffiths ]
+  * bump dep to mir0.1.5 and update shell interfaces
+
+ -- Ubuntu daily release <ps-jenkins@lists.canonical.com>  Wed, 12 Feb 2014 18:23:17 +0000
+
+unity-system-compositor (0.0.2+14.04.20140204-0ubuntu1) trusty; urgency=low
+
+  [ Ubuntu daily release ]
+  * New rebuild forced
+
+  [ Kevin Gunn ]
+  * bump debian version for mir to 0.1.4
+
+ -- Ubuntu daily release <ps-jenkins@lists.canonical.com>  Tue, 04 Feb 2014 14:43:17 +0000
+
+unity-system-compositor (0.0.2+14.04.20140116-0ubuntu1) trusty; urgency=low
+
+  [ Michael Terry ]
+  * Force the screen to redraw after turning the display back on (LP:
+    #1255045). Also stop the compositor when the screen is off.
+    Otherwise it will spin in the background, eating battery. (LP:
+    #1255045)
+
+  [ Ubuntu daily release ]
+  * Automatic snapshot from revision 110
+
+ -- Ubuntu daily release <ps-jenkins@lists.canonical.com>  Thu, 16 Jan 2014 09:20:03 +0000
+
+unity-system-compositor (0.0.2+14.04.20140108.1-0ubuntu1) trusty; urgency=low
+
+  [ Michael Terry ]
+  * LightDM recently got support for proper fallback support when one
+    seat type can't be used. As a result, LightDM took out the built-in
+    support in the unity seat type to fallback to xlocal. Let's add it
+    back in using the new syntax.
+
+  [ Kevin Gunn ]
+  * bump debian version dependency for mir to 0.1.3 to force rebuild.
+
+  [ Ubuntu daily release ]
+  * Automatic snapshot from revision 108
+
+ -- Ubuntu daily release <ps-jenkins@lists.canonical.com>  Wed, 08 Jan 2014 08:02:54 +0000
+
+unity-system-compositor (0.0.2+14.04.20131128.2-0ubuntu1) trusty; urgency=low
+
+  [ Kevin Gunn ]
+  * update mir build dep debian 0.1.2
+
+  [ Alan Griffiths ]
+  * ApplicationSession is a Mir implementation class that shouldn't be
+    used by USC. Use shell::Session instead.
+  * Implement a SystemCompositorShell to keep track of sessions instead
+    of abusing the (soon to be private) mir::shellSessionContainer.
+
+  [ Ubuntu daily release ]
+  * Automatic snapshot from revision 105
+
+ -- Ubuntu daily release <ps-jenkins@lists.canonical.com>  Thu, 28 Nov 2013 17:20:31 +0000
+
+unity-system-compositor (0.0.2+14.04.20131120.1-0ubuntu1) trusty; urgency=low
+
+  [ Michael Terry ]
+  * Bump version to 0.0.2, so we can reference it in debian/control
+  * Default to a public file socket, if one is used.
+  * Clean some lintian warnings.
+  * Add DBus interface for com.canonical.Unity.Screen to USC.
+
+  [ Alan Griffiths ]
+  * Use the Mir libraries detected by pkg_check_modules
+
+  [ Timo Jyrinki ]
+  * Clean the moved conffile when upgrading from previous version. (LP:
+    #1253008). (LP: #1253008)
+
+  [ Kevin Gunn ]
+  * mir server abi and api broke, updating dependency to deb 0.1.1
+
+  [ Robert Bruce Park ]
+  * Stop depending on libboost-all-dev, it is verboten.
+
+  [ Ubuntu daily release ]
+  * Automatic snapshot from revision 101
+
+ -- Ubuntu daily release <ps-jenkins@lists.canonical.com>  Wed, 20 Nov 2013 11:17:20 +0000
+
+unity-system-compositor (0.0.1+14.04.20131028.1-0ubuntu1) trusty; urgency=low
+
+  [ Michael Terry ]
+  * Mir trunk changed some symbols on us, so we shall follow suit.
+  * Bump required version of Mir to 0.1.0. (LP: #1244192)
+
+  [ Ubuntu daily release ]
+  * Automatic snapshot from revision 92
+
+ -- Ubuntu daily release <ps-jenkins@lists.canonical.com>  Mon, 28 Oct 2013 18:26:37 +0000
+
+unity-system-compositor (0.0.1+13.10.20131015-0ubuntu1) saucy; urgency=low
+
+  [ Kevin Gunn ]
+  * bump mir build dep 0.0.15 & libmirserver7.
+
+  [ Ubuntu daily release ]
+  * Automatic snapshot from revision 89
+
+ -- Ubuntu daily release <ps-jenkins@lists.canonical.com>  Tue, 15 Oct 2013 01:06:48 +0000
+
+unity-system-compositor (0.0.1+13.10.20131009.3-0ubuntu1) saucy; urgency=low
+
+  [ Ubuntu daily release ]
+  * New rebuild forced
+
+  [ Kevin Gunn ]
+  * bump mir build dep 0.0.14.
+
+  [ Ubuntu daily release ]
+  * Automatic snapshot from revision 87
+
+ -- Ubuntu daily release <ps-jenkins@lists.canonical.com>  Wed, 09 Oct 2013 23:20:16 +0000
+
+unity-system-compositor (0.0.1+13.10.20131003.1-0ubuntu1) saucy; urgency=low
+
+  [ Michael Terry ]
+  * Default to standalone=true.
+
+  [ Kevin Gunn ]
+  * bump the dependency on mir deb 0.0.13, libmirserver5
+
+  [ Ubuntu daily release ]
+  * Automatic snapshot from revision 85
+
+ -- Ubuntu daily release <ps-jenkins@lists.canonical.com>  Thu, 03 Oct 2013 06:34:04 +0000
+
+unity-system-compositor (0.0.1+13.10.20130926.1-0ubuntu1) saucy; urgency=low
+
+  [ Michael Terry ]
+  * Make the global socket we tell clients to talk to world-writable.
+
+  [ Kevin Gunn ]
+  * bump build dep for new mirserver soname.
+
+  [ Ubuntu daily release ]
+  * Automatic snapshot from revision 82
+
+ -- Ubuntu daily release <ps-jenkins@lists.canonical.com>  Thu, 26 Sep 2013 08:38:45 +0000
+
+unity-system-compositor (0.0.1+13.10.20130925-0ubuntu1) saucy; urgency=low
+
+  [ Michael Terry ]
+  * Bump build dependency on Mir, to rebuild against latest SONAME.
+
+  [ Ubuntu daily release ]
+  * Automatic snapshot from revision 79
+
+ -- Ubuntu daily release <ps-jenkins@lists.canonical.com>  Wed, 25 Sep 2013 10:03:22 +0000
+
+unity-system-compositor (0.0.1+13.10.20130924.1-0ubuntu1) saucy; urgency=low
+
+  [ Robert Ancell ]
+  * Get root permissions to attach lightdm and u-s-c logs. Also attach
+    the .old logs. (LP: #1221506)
+  * Prompt to restart after installing unity-system-compositor. (LP:
+    #1221209)
+  * Set lifecycle state for clients when setting the active session.
+    (LP: #1192843)
+  * Implement regex blacklist for supported OpenGL drivers (copied from
+    Compiz blacklist). (LP: #1226713)
+
+  [ Ubuntu daily release ]
+  * Automatic snapshot from revision 77
+
+ -- Ubuntu daily release <ps-jenkins@lists.canonical.com>  Tue, 24 Sep 2013 06:03:44 +0000
+
+unity-system-compositor (0.0.1+13.10.20130903-0ubuntu2) saucy; urgency=low
+
+  * Rebuild with distro Mir version
+
+ -- Didier Roche <didrocks@ubuntu.com>  Tue, 10 Sep 2013 22:12:47 -0400
+
+unity-system-compositor (0.0.1+13.10.20130903-0ubuntu1) saucy; urgency=low
+
+  * New rebuild forced
+  * Automatic snapshot from revision 71
+
+ -- Ubuntu daily release <ps-jenkins@lists.canonical.com>  Tue, 03 Sep 2013 14:46:08 +0000
+
+unity-system-compositor (0.0.1+13.10.20130830.1-0ubuntu1) saucy; urgency=low
+
+  * New rebuild forced
+  * Automatic snapshot from revision 70
+
+ -- Ubuntu daily release <ps-jenkins@lists.canonical.com>  Fri, 30 Aug 2013 18:55:06 +0000
+
+unity-system-compositor (0.0.1+13.10.20130830-0ubuntu1) saucy; urgency=low
+
+  * New rebuild forced
+  * Automatic snapshot from revision 69
+
+ -- Ubuntu daily release <ps-jenkins@lists.canonical.com>  Fri, 30 Aug 2013 12:12:17 +0000
+
+unity-system-compositor (0.0.1+13.10.20130829.2-0ubuntu1) saucy; urgency=low
+
+  * New rebuild forced
+  * Automatic snapshot from revision 68
+
+ -- Ubuntu daily release <ps-jenkins@lists.canonical.com>  Thu, 29 Aug 2013 18:40:06 +0000
+
+unity-system-compositor (0.0.1+13.10.20130829.1-0ubuntu1) saucy; urgency=low
+
+  * New rebuild forced
+  * Automatic snapshot from revision 67
+
+ -- Ubuntu daily release <ps-jenkins@lists.canonical.com>  Thu, 29 Aug 2013 14:50:09 +0000
+
+unity-system-compositor (0.0.1+13.10.20130829-0ubuntu1) saucy; urgency=low
+
+  * New rebuild forced
+  * Automatic snapshot from revision 66
+
+ -- Ubuntu daily release <ps-jenkins@lists.canonical.com>  Thu, 29 Aug 2013 10:40:07 +0000
+
+unity-system-compositor (0.0.1+13.10.20130828.1-0ubuntu1) saucy; urgency=low
+
+  * New rebuild forced
+  * Automatic snapshot from revision 65
+
+ -- Ubuntu daily release <ps-jenkins@lists.canonical.com>  Wed, 28 Aug 2013 22:41:11 +0000
+
+unity-system-compositor (0.0.1+13.10.20130828-0ubuntu1) saucy; urgency=low
+
+  [ Robert Ancell ]
+  * Build on the same architectures as Mir so we don't wait for
+    dependencies that will never exist (i.e. PowerPC).
+
+  [ Ubuntu daily release ]
+  * New rebuild forced
+  * Automatic snapshot from revision 64
+
+ -- Ubuntu daily release <ps-jenkins@lists.canonical.com>  Wed, 28 Aug 2013 10:42:08 +0000
+
+unity-system-compositor (0.0.1+13.10.20130826.1-0ubuntu1+build1) saucy; urgency=low
+
+  * No change rebuild to get mir out of -proposed
+
+ -- Robert Ancell <robert.ancell@canonical.com>  Wed, 28 Aug 2013 12:07:27 +1200
+
+unity-system-compositor (0.0.1+13.10.20130826.1-0ubuntu1) saucy; urgency=low
+
+  [ Robert Ancell ]
+  * Fix sleep wrapper around unity-system-compositor - currently LightDM
+    only quits the script, not the compositor due to the way it is run.
+
+  [ Ubuntu daily release ]
+  * New rebuild forced
+  * Automatic snapshot from revision 61
+
+ -- Ubuntu daily release <ps-jenkins@lists.canonical.com>  Mon, 26 Aug 2013 10:06:12 +0000
+
+unity-system-compositor (0.0.1+13.10.20130825.1-0ubuntu1) saucy; urgency=low
+
+  * New rebuild forced
+  * Automatic snapshot from revision 59
+
+ -- Ubuntu daily release <ps-jenkins@lists.canonical.com>  Sun, 25 Aug 2013 14:34:11 +0000
+
+unity-system-compositor (0.0.1+13.10.20130825-0ubuntu1) saucy; urgency=low
+
+  * New rebuild forced
+  * Automatic snapshot from revision 58
+
+ -- Ubuntu daily release <ps-jenkins@lists.canonical.com>  Sun, 25 Aug 2013 10:40:12 +0000
+
+unity-system-compositor (0.0.1+13.10.20130823.3-0ubuntu1) saucy; urgency=low
+
+  * New rebuild forced
+  * Automatic snapshot from revision 57
+
+ -- Ubuntu daily release <ps-jenkins@lists.canonical.com>  Fri, 23 Aug 2013 22:43:09 +0000
+
+unity-system-compositor (0.0.1+13.10.20130823.1-0ubuntu1) saucy; urgency=low
+
+  * New rebuild forced
+  * Automatic snapshot from revision 56
+
+ -- Ubuntu daily release <ps-jenkins@lists.canonical.com>  Fri, 23 Aug 2013 14:45:13 +0000
+
+unity-system-compositor (0.0.1+13.10.20130823-0ubuntu1) saucy; urgency=low
+
+  * New rebuild forced
+  * Automatic snapshot from revision 55
+
+ -- Ubuntu daily release <ps-jenkins@lists.canonical.com>  Fri, 23 Aug 2013 06:45:11 +0000
+
+unity-system-compositor (0.0.1+13.10.20130822.2-0ubuntu1) saucy; urgency=low
+
+  * New rebuild forced
+  * Automatic snapshot from revision 54
+
+ -- Ubuntu daily release <ps-jenkins@lists.canonical.com>  Thu, 22 Aug 2013 14:36:10 +0000
+
+unity-system-compositor (0.0.1+13.10.20130822.1-0ubuntu1) saucy; urgency=low
+
+  * New rebuild forced
+  * Automatic snapshot from revision 53
+
+ -- Ubuntu daily release <ps-jenkins@lists.canonical.com>  Thu, 22 Aug 2013 10:42:12 +0000
+
+unity-system-compositor (0.0.1+13.10.20130822-0ubuntu1) saucy; urgency=low
+
+  [ Michael Terry ]
+  * Add the API needed for LightDM to be able to set the 'next session'
+    (but leave actually implementing the API to later).
+
+  [ Ubuntu daily release ]
+  * New rebuild forced
+  * Automatic snapshot from revision 52
+
+ -- Ubuntu daily release <ps-jenkins@lists.canonical.com>  Thu, 22 Aug 2013 06:06:15 +0000
+
+unity-system-compositor (0.0.1+13.10.20130821.1-0ubuntu1) saucy; urgency=low
+
+  * New rebuild forced
+  * Automatic snapshot from revision 50
+
+ -- Ubuntu daily release <ps-jenkins@lists.canonical.com>  Wed, 21 Aug 2013 14:40:11 +0000
+
+unity-system-compositor (0.0.1+13.10.20130821-0ubuntu1) saucy; urgency=low
+
+  [ Robert Ancell ]
+  * Attach PCI graphics card info to apport report.
+  * Install apport hook. (LP: #1204284)
+  * Attach lightdm and unity-system-compositor logs in apport
+    submissions.
+
+  [ Ubuntu daily release ]
+  * New rebuild forced
+  * Automatic snapshot from revision 49
+
+ -- Ubuntu daily release <ps-jenkins@lists.canonical.com>  Wed, 21 Aug 2013 06:51:13 +0000
+
+unity-system-compositor (0.0.1+13.10.20130813.1-0ubuntu1) saucy; urgency=low
+
+  * New rebuild forced
+  * Automatic snapshot from revision 45
+
+ -- Ubuntu daily release <ps-jenkins@lists.canonical.com>  Tue, 13 Aug 2013 06:36:37 +0000
+
+unity-system-compositor (0.0.1+13.10.20130812.4-0ubuntu1) saucy; urgency=low
+
+  * New rebuild forced
+  * Automatic snapshot from revision 44
+
+ -- Ubuntu daily release <ps-jenkins@lists.canonical.com>  Mon, 12 Aug 2013 18:41:20 +0000
+
+unity-system-compositor (0.0.1+13.10.20130812.3-0ubuntu1) saucy; urgency=low
+
+  * New rebuild forced
+  * Automatic snapshot from revision 43
+
+ -- Ubuntu daily release <ps-jenkins@lists.canonical.com>  Mon, 12 Aug 2013 14:40:12 +0000
+
+unity-system-compositor (0.0.1+13.10.20130812.2-0ubuntu1) saucy; urgency=low
+
+  * New rebuild forced
+  * Automatic snapshot from revision 42
+
+ -- Ubuntu daily release <ps-jenkins@lists.canonical.com>  Mon, 12 Aug 2013 08:20:20 +0000
+
+unity-system-compositor (0.0.1+13.10.20130810.1-0ubuntu1) saucy; urgency=low
+
+  * New rebuild forced
+  * Automatic snapshot from revision 41
+
+ -- Ubuntu daily release <ps-jenkins@lists.canonical.com>  Sat, 10 Aug 2013 10:06:27 +0000
+
+unity-system-compositor (0.0.1+13.10.20130809.1-0ubuntu1) saucy; urgency=low
+
+  [ Robert Ancell ]
+  * Initial release
+
+  [ Didier Roche ]
+  * Automatic snapshot from revision 29 (bootstrap)
+
+  [ Robert Ancell ]
+  * Add a --version option.
+  * Fix --from-dm-fd and --to-dm-fd command line options being broken.
+    (LP: #1197232)
+  * Add autopilot test to ensure u-s-c is running in supported
+    configurations.
+  * Re-enable input since Mir now handles alt+ctrl+Fn keys.
+
+  [ Ubuntu daily release ]
+  * New rebuild forced
+
+  [ Didier Roche ]
+  * use correct DEP5 url.
+  * Add autopilot test to ensure u-s-c is running in supported
+    configurations.
+  * add a dirty sleep to workaround a race when starting unity-system-
+    compositor from lightdm (unity-system-compositor fails on a module
+    load error, strace workarounds it as well).
+  * disable input for u-s-c on tvoss' advice to start on some ATI card.
+    (LP: #1203070)
+
+  [ Thomi Richards ]
+  * Add COPYING file.
+  * Add autopilot test to ensure u-s-c is running in supported
+    configurations.
+
+  [ Robert Carr ]
+  * Disable hardware cursor. (LP: #1192916)
+
+  [ Christopher James Halse Rogers ]
+  * Add Depends: on xserver-xorg-xmir to ensure a supported XServer.
+
+  [ Ubuntu daily release ]
+  * Automatic snapshot from revision 40
+
+ -- Ubuntu daily release <ps-jenkins@lists.canonical.com>  Fri, 09 Aug 2013 11:54:29 +0000
