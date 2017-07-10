@@ -1,5 +1,7 @@
 #!/usr/bin/make -f
 
+DISTRIB_CODENAME = $(shell grep DISTRIB_CODENAME /etc/lsb-release | cut -d= -f2)
+
 %:
 	dh $@ --parallel --fail-missing --with python3
 
@@ -11,8 +13,12 @@ override_dh_auto_configure:
 override_dh_install:
 	# install autopilot tests
 	cd tests/autopilot; \
-	set -ex; for python in $(shell py3versions -r); do \
-	    $$python setup.py install --root=$(CURDIR)/debian/tmp --install-layout=deb; \
-	done; \
+	set -ex; \
+	$(shell py3versions --default) setup.py install --root=$(CURDIR)/debian/tmp --install-layout=deb; \
 	cd $(CURDIR)
+ifeq ($(filter xenial yakkety zesty,$(DISTRIB_CODENAME)),)
+	dh_install -X'*.pyc'
+else
+	# xenial, yakkety & zesty predate dh_missing
 	dh_install -X'*.pyc' --fail-missing
+endif
