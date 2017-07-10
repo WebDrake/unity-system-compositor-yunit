@@ -13,9 +13,8 @@ override_dh_auto_configure:
 override_dh_install:
 	# install autopilot tests
 	cd tests/autopilot; \
-	set -ex; for python in $(shell py3versions -r); do \
-	    $$python setup.py install --root=$(CURDIR)/debian/tmp --install-layout=deb; \
-	done; \
+	set -ex;
+	$(shell py3versions --default) setup.py install --root=$(CURDIR)/debian/tmp --install-layout=deb;
 	cd $(CURDIR)
 ifeq ($(filter xenial yakkety zesty,$(DISTRIB_CODENAME)),)
 	dh_install -X'*.pyc'
