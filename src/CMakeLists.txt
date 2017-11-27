@@ -16,20 +16,21 @@
 
 set(USC_SRCS
   asio_dm_connection.cpp
+  create_dm_connection.cpp
   dbus_connection_handle.cpp
   dbus_event_loop.cpp
   dbus_message_handle.cpp
-  display_configuration_policy.cpp
   external_spinner.cpp  
+  extract_socket_config.cpp
   mir_screen.cpp
   mir_input_configuration.cpp
   screen_event_handler.cpp
-  server.cpp
   session_switcher.cpp
   steady_clock.cpp
   system_compositor.cpp
   thread_name.cpp
   dbus_connection_thread.cpp
+  validate_video_driver.cpp
   unity_input_service.cpp
   unity_input_service_introspection.h
   unity_display_service.cpp
@@ -72,6 +73,7 @@ include_directories(
   ${CMAKE_CURRENT_BINARY_DIR}
   ${Boost_INCLUDE_DIRS}
   ${GLESv2_INCLUDE_DIRS}
+  ${MIRAL_INCLUDE_DIRS}
   ${MIRSERVER_INCLUDE_DIRS}
   ${MIRCLIENT_INCLUDE_DIRS}
   ${DBUS_INCLUDE_DIRS}
@@ -83,6 +85,7 @@ add_definitions(
 link_directories(${MIRSERVER_LIBRARY_DIRS})
 
 target_link_libraries(usc
+  ${MIRAL_STATIC_LDFLAGS}
   ${MIRSERVER_STATIC_LDFLAGS}  # Meaning usc is STATIC, _not_ libmirserver.
   pthread
   ${Boost_LIBRARIES}

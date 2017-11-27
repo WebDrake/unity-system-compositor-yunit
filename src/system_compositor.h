@@ -20,10 +20,13 @@
 #ifndef USC_SYSTEM_COMPOSITOR_H_
 #define USC_SYSTEM_COMPOSITOR_H_
 
+#include <functional>
 #include <memory>
 
 namespace mir
 {
+class Server;
+
 namespace input
 {
 class EventFilter;
@@ -33,11 +36,11 @@ class EventFilter;
 namespace usc
 {
 
-class Server;
 class DMConnection;
 class Spinner;
 class ScreenEventHandler;
 class Screen;
+class SessionSwitcher;
 class UnityDisplayService;
 class UnityInputService;
 class DBusConnectionThread;
@@ -45,13 +48,11 @@ class DBusConnectionThread;
 class SystemCompositor
 {
 public:
-    explicit SystemCompositor(std::shared_ptr<Server> const& server);
-    void run();
+    SystemCompositor() = default;
+    void operator()(mir::Server& server);
 
 private:
-    std::shared_ptr<Server> const server;
-    std::shared_ptr<DMConnection> dm_connection;
-    std::shared_ptr<Spinner> const spinner;
+    std::function<std::shared_ptr<SessionSwitcher>()> the_session_switcher;
     std::shared_ptr<Screen> screen;
     std::shared_ptr<mir::input::EventFilter> screen_event_handler;
     std::shared_ptr<UnityDisplayService> unity_display_service;
